@@ -10,7 +10,7 @@ import pandas as pd
 st.set_page_config(page_title="2026 Goals Dashboard", layout="wide")
 
 # ---------------- LOAD IMAGE ----------------
-image_path = "Cynthia's 2026 goals in focus.png" 
+image_path = "./Cynthia's 2026 goals in focus.png" 
 
 try:
     with open(image_path, "rb") as img_file:
